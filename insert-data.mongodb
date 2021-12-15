@@ -1,0 +1,16 @@
+// Inserting authors
+db.authors.insert({name: "pepe", lastName: "pepito", birthDate: new Date("1992-04-27"), deathDate: new Date("2030-04-27"), country: "Spain"})
+db.authors.insert({name: "pepe2", lastName: "pepito2",birthDate: new Date("1950-04-27"), deathDate: new Date("2020-04-27"), country: "Germany"})
+db.authors.insert({name: "pepe3", lastName: "pepito3",birthDate: new Date("1970-04-27"), deathDate: new Date("2015-04-27"), country: "United Kingdom"})
+
+// Inserting books
+db.books.insert({title: "book1", releaseYear: [1980],category: "category1", authors: [{id:"61b9ca639c385a861da89d30", name:"Author1",lastName:"AuthorLastName1"}]})
+db.books.insert({title: "book2", releaseYear: [1940],category: "category2", authors: [{id:"61b9ca639c385a861da89d30", name:"Author1",lastName:"AuthorLastName1"}]})
+db.books.insert({title: "book3", releaseYear: [1870],category: "category2", authors: [{id:"61b9ca639c385a861da89d30", name:"Author1",lastName:"AuthorLastName1"}]})
+db.books.insert({title: "book4", releaseYear: [1932],category: "category2", authors: [{id:"61b9ca959c385a861da89d31", name:"Author2",lastName:"AuthorLastName2"}]})
+db.books.insert({title: "book5", releaseYear: [1897],category: "category2", authors: [{id:"61b9ca959c385a861da89d31", name:"Author2",lastName:"AuthorLastName2"}]})
+db.books.insert({title: "book6", releaseYear: [1964],category: "category3", authors: [{id:"61b9ca959c385a861da89d31", name:"Author2",lastName:"AuthorLastName2"}]})
+db.books.insert({title: "book7", releaseYear: [1998],category: "category3", authors: [{id:"61b9ca959c385a861da89d31", name:"Author2",lastName:"AuthorLastName2"}]})
+db.books.insert({title: "book8", releaseYear: [1992],category: "category3", authors: [{id:"61b9caba9c385a861da89d32", name:"Author3",lastName:"AuthorLastName3"}]})
+db.books.insert({title: "book9", releaseYear: [1995],category: "category4", authors: [{id:"61b9caba9c385a861da89d32", name:"Author3",lastName:"AuthorLastName3"}]})
+db.books.insert({title: "book10", releaseYear: [2020],category: "category5", authors: [{id:"61b9caba9c385a861da89d32", name:"Author3",lastName:"AuthorLastName3"}]})
