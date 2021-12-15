@@ -1,7 +1,7 @@
 // Inserting authors
-db.authors.insert({name: "pepe", lastName: "pepito", birthDate: new Date("1992-04-27"), deathDate: new Date("2030-04-27"), country: "Spain"})
-db.authors.insert({name: "pepe2", lastName: "pepito2",birthDate: new Date("1950-04-27"), deathDate: new Date("2020-04-27"), country: "Germany"})
-db.authors.insert({name: "pepe3", lastName: "pepito3",birthDate: new Date("1970-04-27"), deathDate: new Date("2015-04-27"), country: "United Kingdom"})
+db.authors.insert({name: "Author1", lastName: "AuthorLastName1", birthDate: new Date("1992-04-27"), deathDate: new Date("2030-04-27"), country: "Spain"})
+db.authors.insert({name: "Author2", lastName: "AuthorLastName2",birthDate: new Date("1950-04-27"), deathDate: new Date("2020-04-27"), country: "Germany"})
+db.authors.insert({name: "Author3", lastName: "AuthorLastName3",birthDate: new Date("1970-04-27"), deathDate: new Date("2015-04-27"), country: "United Kingdom"})
 
 // Inserting books
 db.books.insert({title: "book1", releaseYear: [1980],category: "category1", authors: [{id:"61b9ca639c385a861da89d30", name:"Author1",lastName:"AuthorLastName1"}]})

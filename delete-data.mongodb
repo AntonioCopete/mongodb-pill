@@ -1,0 +1,7 @@
+// DELETE DATA
+
+
+// Eliminate all the books for a given author
+db.books.deleteMany({name: "pepe"})
+
+// Eliminate all the death authors
