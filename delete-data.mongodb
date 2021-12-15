@@ -2,6 +2,7 @@
 
 
 // Eliminate all the books for a given author
-db.books.deleteMany({name: "pepe"})
+db.books.deleteMany({"authors.name": "Author1"})
 
 // Eliminate all the death authors
+db.authors.deleteMany({deathDate: {$exists:true}})
